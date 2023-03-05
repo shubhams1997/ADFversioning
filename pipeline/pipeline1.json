@@ -32,10 +32,16 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 1
+					"waitTimeInSeconds": 5
 				}
 			}
 		],
+		"variables": {
+			"fileName": {
+				"type": "String",
+				"defaultValue": "testFile"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2023-03-05T10:11:22Z"
 	},
