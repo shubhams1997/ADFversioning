@@ -1,0 +1,9 @@
+{
+	"name": "shsharma-df",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d420b429-ac58-4056-a1b2-47b24195b9fe",
+		"tenantId": "b7ae983a-c454-46d7-88cb-da413e68548c"
+	}
+}

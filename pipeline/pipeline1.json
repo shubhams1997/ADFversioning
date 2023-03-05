@@ -1,0 +1,27 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "http://google.com",
+					"method": "GET"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-03-05T10:11:22Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
