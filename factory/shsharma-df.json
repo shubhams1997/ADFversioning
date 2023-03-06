@@ -1,10 +1,5 @@
 {
 	"name": "shsharma-df",
-	"properties": {
-		"globalConfigurations": {
-			"PipelineBillingEnabled": "false"
-		}
-	},
 	"location": "eastus2",
 	"identity": {
 		"type": "SystemAssigned",

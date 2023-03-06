@@ -18,30 +18,8 @@
 					"url": "http://google.com",
 					"method": "GET"
 				}
-			},
-			{
-				"name": "Wait1",
-				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "Web1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 5
-				}
 			}
 		],
-		"variables": {
-			"fileName": {
-				"type": "String",
-				"defaultValue": "testFile"
-			}
-		},
 		"annotations": [],
 		"lastPublishTime": "2023-03-05T10:11:22Z"
 	},
