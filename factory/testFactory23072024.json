@@ -1,0 +1,9 @@
+{
+	"name": "testFactory23072024",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c336d588-ec15-45c6-a578-c64ecfa4b859",
+		"tenantId": "b7ae983a-c454-46d7-88cb-da413e68548c"
+	}
+}
